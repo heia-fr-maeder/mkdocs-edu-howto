@@ -5,7 +5,7 @@ COPY . /app
 RUN apt-get update && \
         export DEBIAN_FRONTEND=noninteractive && \
         apt-get -y install --no-install-recommends \
-      python3-brotli
+      python3-brotli \
       python3-cffi \
       python3-pip \
       zip \
